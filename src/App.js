@@ -6,7 +6,7 @@ function App() {
     <div className="bg-main p-5 text-white space-y-6">
       <div className="flex flex-col">
         <header className="mb-7 sm:mb-0">
-          <button className="bg-white w-32 rounded p-2 float-right text-black">
+          <button className="bg-white w-32 rounded p-2 float-right text-gray-800 font-semibold">
             Log In
           </button>
         </header>
