@@ -10,7 +10,7 @@ export default function SignUpForm() {
 
   return (
     <div className="mx-auto max-w-[465px] bg-sec p-5 rounded">
-      <h4 className="text-xs xs:text-lg font-bold text-center">
+      <h4 className="text-xl font-bold text-center">
         SIGN UP AND START HAVING FUN!
       </h4>
 
@@ -18,7 +18,7 @@ export default function SignUpForm() {
         {/* Birthday */}
         <div>
           <label>Birthday</label>
-          <div className="flex  text-[10px] xs:text-base my-2">
+          <div className="flex my-2">
             {/* Month */}
             <Select border="rounded-l border-r-0">
               <option>Month</option>
