@@ -10,6 +10,9 @@ module.exports = {
       screens: {
         xs: "368px",
       },
+      backgroundImage: {
+        "yacht-Img": "url('/public/images/yacht-bg.jpg')",
+      },
     },
   },
   plugins: [],
