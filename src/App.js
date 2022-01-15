@@ -8,12 +8,12 @@ function App() {
       <div className=" bg-yacht-Img bg-no-repeat bg-center bg-cover ">
         <div className="flex flex-col py-6 2xl:container 2xl:mx-auto">
           <header className="mb-7 sm:mb-0">
-            <button className="bg-white w-32 rounded p-2 m-4 float-right text-gray-800 font-semibold shadow-xl">
+            <button className="bg-white w-32 rounded p-2 m-4 float-right text-gray-800 border-gray-300 border font-semibold shadow-xl">
               Log In
             </button>
           </header>
           <main className="space-y-6">
-            <h1 className="text-4xl font-mono font-bold text-center">
+            <h1 className="text-4xl font-black tracking-wide text-center">
               My Product
             </h1>
             <SignUpForm />
